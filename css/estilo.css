@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+    --branco: #f5f5f5;
+    --fundo: #FFFCFC;
+    --cinza: #464646;
+    --hover: #cfac77;
+    --sobremim: #efb810;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--fundo);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: var(--cinza);
+    text-align: center;
+    
+}
+
+body img {
+    width: 100%;
+}
+
+
+
+/* CABEÇALHO */
+
+.cabecalho__container {
+    background-color: var(--fundo);
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;   
+}
+
+.logo__item {
+   width: 100px;
+   height: 100%;
+}
+
+.cabecalho__item {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cabecalho__item:hover {
+    background-color: var(--sobremim);
+    border-radius: 8px;
+}
+
+/*SECAO HERO*/
+
+.secao__hero__infos h1{
+    text-align: center;    
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.secao__hero__infos p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.secao__hero__icons a:hover {
+    background-color: var(--sobremim);
+    border-radius: 5px;
+}
+
+/*SECAO SOBRE MIM*/
+
+.secao__sobremim {
+    background-color: var(--sobremim);
+    width: 100%;
+    height: 368px;
+}
+
+.secao__sobremim h2 {
+    font-size: 2.5rem;
+    padding: 50px 0 50px 0;
+}
+
+.secao__sobremim p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/*SECAO SKILLS E HOBBIES*/
+
+.secao__skills__hobbies h2 {
+    font-size: 2.5rem;
+    padding: 50px 0 50px 0;
+}
+
+/*SECAO FORMACAO*/
+
+.secao__formacao {
+    background-color: var(--sobremim);
+}
+
+.secao__formacao h2 {
+    font-size: 2.5rem;
+    padding: 50px 0 50px 0;
+}
+
+.secao__formacoes__texto {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/*SECAO EXPERIENCIA PROFESSIONAL*/
+
+.secao__experiencia h2{
+    font-size: 2.5rem;
+    padding: 50px 0 50px 0;
+}
+
+.div1__info {
+    padding: 50px 0 50px 0;
+  
+    
+}
+.div1__info h3 {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.div1__info p {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.div1__info a {
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    background-color: var(--sobremim);
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.div2__info {
+    padding: 50px 0 50px 0; 
+    
+}
+.div2__info h3 {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.div2__info p {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.div2__info a {
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    background-color: var(--sobremim);
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+
+/*SECAO CONTATO*/
+
+.secao__contato {
+    background-color: var(--sobremim);
+
+}
+
+.secao__contato h2 {
+    font-size: 2.5rem;
+    padding: 50px 0 50px 0;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/**/
+
+.form__img {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-self: center;
+    
+}
+
+.form__div {
+    max-width: 500px;
+}
+
+input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px 10px;   
+    border: 1px solid var(--cinza);
+    background-color: #e6dec7;
+}
+
+textarea {
+    margin-left: 57px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px 10px;   
+    border: 1px solid var(--cinza);
+    background-color: #e6dec7;
+    resize: none;
+}
+
+.formulario button{
+    width: 400px;
+    margin-left: 57px;
+    background-color: #e6dec7;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 50px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight:600;
+    text-align: center;
+    margin-top: 10px;
+}

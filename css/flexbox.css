@@ -1,0 +1,181 @@
+:root {
+    --branco: #f5f5f5;
+    --fundo: #FFFCFC;
+    --cinza: #464646;
+    --hover: #cfac77;
+    --sobremim: #efb810;
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*CABECALHO*/
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;  
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.cabecalho__item {
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+/*SECAO HERO*/
+
+.secao__hero {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    width: 100%;
+    height: 368px;
+    margin-top: 80px;    
+}
+
+
+.secao__hero__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 20px;    
+}
+
+.secao__hero__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.secao__hero__icons span{
+    padding: 0 8px 0 8px;
+    
+}
+
+.secao__hero__img img{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
+/*SECAO SKILLS E HOBBIES*/
+
+.secao__skills__hobbies {
+    width: 100%;
+    height: 650px;    
+}
+
+.secao__skills__grid, .secao__hobbies__grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);   
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;    
+}
+
+.secao__skills__div, .secao__hobbies__div  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--sobremim);
+}
+
+.secao__skills__grid h3, .secao__hobbies__grid h3 {
+    font-size: 1.8rem;
+}
+
+.secao__skills__grid img, .secao__hobbies__grid img {
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
+
+/*SECAO FORMACAO*/
+
+.secao__formacao {
+    width: 100%;
+    height: 400px;
+ 
+}
+
+.secao__formacao__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;     
+}
+
+.secao__formacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: var(--fundo);
+    margin-bottom: 10px;
+   
+}
+
+.secao__formacoes img {
+    width: 100px;
+    height: auto;
+}
+
+.secao__formacoes__texto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+/*EXPERIENCIA PROFESSIONAL*/
+
+.secao__exp__grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.secao__exp__div {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao__exp__div2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.div1__img {
+    padding: 30px 50px;
+    width: 50%;
+}
+
+.div2__img {
+    padding: 30px 50px;
+    width: 50%;
+}
+
+/*secao contato*/
+
+.form__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+
+
+
